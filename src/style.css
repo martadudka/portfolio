@@ -1,0 +1,148 @@
+:root {
+    --primary-color: rgb(76, 181, 178);
+    --secondary-color: rgb(216, 247, 246);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.color-primary {
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+.wrapper {
+margin-top: 80px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    margin: 0;
+    margin-block-start: 13px;
+    margin-block-end: 13px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h2 {
+font-size: 60px;
+}
+
+h3 {
+font-size: 40px;
+}
+
+h4 {
+    color: rgb(109, 107, 107);
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    font-size: 24px;
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color);
+}
+
+.about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.back-homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about-paragraphs {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.about-paragraphs p {
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    margin-block-start: 13px;
+    margin-block-end: 13px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 30px;
+    line-height: 0.2;
+}
+
+.weather-app img {
+    background: var(--secondary-color);
+    padding: 60px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.weather-app p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+    display: block;
+    margin-block-start: 13px;
+    margin-block-end: 13px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.heading {
+    font-size: 38px;
+}
+
+.netlify-link {
+    border-radius: 4px;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.github-link {
+    border-radius: 4px;
+    padding: 20px 47px;
+    text-decoration: none;
+    background: #171515;
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.contact-me {
+    margin-top: 60px;
+}
